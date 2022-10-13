@@ -93,5 +93,43 @@ input{
     color: var(--Very_light_gray);
 }
 
+@media screen and (max-width:780px) {
+    main{
+        width: 95%;
+    }   
+ 
+}
+
+@media screen and (max-width:650px) {
+    main{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4em;
+        height: 100%;
+    }
+    section{
+        border-top-right-radius: 0.5em;
+    }
+    footer{
+        margin-top: 20em;
+    }
+}
+@media screen and (max-width:375px) {
+    main{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3em;
+    }
+    footer{
+        margin-top:30em;
+    }
+    section{
+        width: 80%;
+    }
+    input{
+        width: 90%;
+    }
+}
+    
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
